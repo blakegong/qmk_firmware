@@ -17,7 +17,9 @@
 #pragma once
 
 /* USB Device descriptor parameter */
-#define PRODUCT_ID      0x0107
+#undef VENDOR_ID
+#define VENDOR_ID       0x05AC
+#define PRODUCT_ID      0x024F
 #define DEVICE_VER      0x0200
 
 /* key matrix size */
